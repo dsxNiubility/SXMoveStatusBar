@@ -1,0 +1,2 @@
+# SXMoveStatusBar
+主要为了练习Salesforce中状态栏移至右边的效果
