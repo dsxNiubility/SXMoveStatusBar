@@ -14,6 +14,7 @@
 		1D300AF31AED26E80034C932 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D300AF21AED26E80034C932 /* Images.xcassets */; };
 		1D300AF61AED26E80034C932 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D300AF41AED26E80034C932 /* LaunchScreen.xib */; };
 		1D300B021AED26E80034C932 /* SXMoveStatusBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D300B011AED26E80034C932 /* SXMoveStatusBarTests.m */; };
+		1DB065321AEDD7D400D1DB8B /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB065311AEDD7D400D1DB8B /* ContentViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		1D300AFB1AED26E80034C932 /* SXMoveStatusBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SXMoveStatusBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D300B001AED26E80034C932 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D300B011AED26E80034C932 /* SXMoveStatusBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXMoveStatusBarTests.m; sourceTree = "<group>"; };
+		1DB065301AEDD7D400D1DB8B /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
+		1DB065311AEDD7D400D1DB8B /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				1D300AEA1AED26E80034C932 /* AppDelegate.m */,
 				1D300AEC1AED26E80034C932 /* ViewController.h */,
 				1D300AED1AED26E80034C932 /* ViewController.m */,
+				1DB065301AEDD7D400D1DB8B /* ContentViewController.h */,
+				1DB065311AEDD7D400D1DB8B /* ContentViewController.m */,
 				1D300AEF1AED26E80034C932 /* Main.storyboard */,
 				1D300AF21AED26E80034C932 /* Images.xcassets */,
 				1D300AF41AED26E80034C932 /* LaunchScreen.xib */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DB065321AEDD7D400D1DB8B /* ContentViewController.m in Sources */,
 				1D300AEE1AED26E80034C932 /* ViewController.m in Sources */,
 				1D300AEB1AED26E80034C932 /* AppDelegate.m in Sources */,
 				1D300AE81AED26E80034C932 /* main.m in Sources */,
@@ -418,6 +424,7 @@
 				1D300B071AED26E80034C932 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D300B081AED26E80034C932 /* Build configuration list for PBXNativeTarget "SXMoveStatusBarTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +433,7 @@
 				1D300B0A1AED26E80034C932 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
